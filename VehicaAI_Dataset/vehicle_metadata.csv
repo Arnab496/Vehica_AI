@@ -1,0 +1,4 @@
+vehicle_id,vehicle_name,vehicle_type,battery_capacity_kwh,initial_soc_pct,initial_odometer_km,nominal_efficiency_kwh_per_100km,region_zone,tire_pressure_front_left_psi,tire_pressure_front_right_psi,tire_pressure_rear_left_psi,tire_pressure_rear_right_psi,software_version,data_origin
+VEH-001,Urban EV SUV,electric_suv,78.0,88.0,48210.4,18.5,Kolkata_East,35.0,35.2,36.0,35.8,vehica-demo-1.0,synthetic_simulation
+VEH-002,Fleet EV Van,electric_van,64.0,91.0,124550.2,21.5,Kolkata_North,38.0,38.1,41.0,40.8,vehica-demo-1.0,synthetic_simulation
+VEH-003,Compact EV Sedan,electric_sedan,58.0,76.0,32110.8,16.8,Kolkata_South,34.5,34.6,35.5,35.4,vehica-demo-1.0,synthetic_simulation

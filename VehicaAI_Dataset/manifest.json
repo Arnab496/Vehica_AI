@@ -1,0 +1,29 @@
+{
+  "dataset_name": "VehicaAI Real-Time Event Dataset",
+  "version": "1.0",
+  "provenance": "synthetic_simulation",
+  "sampling_interval": "1 minute",
+  "timezone": "Asia/Kolkata",
+  "start_time_local": "2026-10-09T00:00:00+05:30",
+  "end_time_local": "2026-10-22T23:59:00+05:30",
+  "random_seed": 42,
+  "vehicles": 3,
+  "telemetry_rows": 60480,
+  "unified_events": 12,
+  "trip_summaries": 68,
+  "charging_sessions": 35,
+  "files": [
+    "README.md",
+    "adas_events.csv",
+    "charging_sessions.csv",
+    "diagnostic_events.csv",
+    "example_rag_queries.csv",
+    "hourly_environment.csv",
+    "manifest.json",
+    "signal_dictionary.csv",
+    "telemetry_1min.csv",
+    "trip_summaries.csv",
+    "vehicle_events_unified.csv",
+    "vehicle_metadata.csv"
+  ]
+}

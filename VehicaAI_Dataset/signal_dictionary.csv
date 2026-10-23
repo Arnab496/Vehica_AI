@@ -1,0 +1,29 @@
+field_name,data_type,description
+timestamp_local,datetime,Local timestamp in Asia/Kolkata with UTC offset; synthetic 1-minute sample time.
+timestamp_epoch_ms,integer,Epoch timestamp in milliseconds.
+vehicle_id,string,Stable key joining records to vehicle_metadata.csv.
+trip_id,string,Trip identifier; blank when the vehicle is not in a scheduled simulated trip.
+vehicle_speed_kmh,float,Simulated vehicle speed in km/h.
+ignition_on,boolean,Simulated ignition/ready state.
+gear_state,string,"P, D, or D_IDLE in this demo."
+soc_pct,float,Estimated battery state of charge in percent.
+estimated_range_km,float,Illustrative range estimate computed from SOC and contextual efficiency assumptions.
+battery_voltage_v,float,Simulated high-voltage pack voltage.
+battery_current_a,float,Positive means discharge; negative means charging.
+battery_power_kw,float,Positive means discharge; negative means charging.
+battery_temp_c,float,Simulated battery temperature; includes a designed temperature-warning event.
+ambient_temp_c,float,"Simulated ambient temperature, not sourced from a weather service."
+cabin_temp_c,float,Simulated cabin temperature.
+hvac_on,boolean,Whether HVAC is marked active.
+hvac_power_kw,float,Illustrative HVAC electrical load.
+brake_pedal_pressed,boolean,Simulated brake-pedal state.
+accelerator_pct,float,Simulated accelerator position percentage.
+regenerative_braking_kw,float,Illustrative regenerative braking power.
+tire_pressure_*_psi,float,Simulated tire pressure per wheel.
+adas_state,string,"active, standby, or disengaged."
+adas_disengagement_reason,string,Reference to the event window when the simulated ADAS disengages.
+charging_state,string,charging or not_charging.
+charger_power_kw,float,Illustrative charging power while charging.
+location_zone,string,Coarse simulated zone label; no real GPS coordinates included.
+active_event_codes,string,Pipe-separated event codes recorded at exactly that telemetry minute.
+data_origin,string,Always synthetic_simulation; no actual vehicle recordings are included.
